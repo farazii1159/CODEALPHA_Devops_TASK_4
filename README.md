@@ -98,6 +98,27 @@ CODEALPHA_Devops_TASK_4/
 └── images/             # Documentation screenshots folder 
 
 ```
+
+## 📸 Project Verification Screenshots
+### 1. DevOps Control Center Local UI
+Validation confirming our engineered **DevOps Control Center & Metrics Dashboard** rendering natively on the host interface over port `8080`.
+
+![Local UI Verification](images/dashboard-ui.jpg)
+
+
+## 2. Docker Desktop Container Registry
+Telemetry status readout displaying the **faraz-web-container** environment running optimally with minimal resource footprint (**8.95MB**).
+
+![Docker Desktop Container](images/faraz_container.jpg)
+
+
+## 3. Nginx Worker Process Telemetry Logs
+Live application container logs streams verifying active worker routines and server responses.
+
+![Nginx Worker Process Telemetry Logs](images/logs_monitoring.jpg)
+
+
+
 ### Project documentation
 
 ### 🧠 Technical Competencies Gained
@@ -110,13 +131,21 @@ State Management & Lifecycle: Mastered low-level infrastructure operations inclu
 
 Environment Synchronization: Handled runtime operations and host system resource binding smoothly across the WSL 2 subsystem layer.
 
-
 ---
 
-## 📸 Project Verification Screenshots
+### 🚀 Nayi Files Ko GitHub Par Kaise Bhejein?
 
+Ab aap apne local project workspace ke `images` folder mein teenon screenshots (`dashboard-ui.jpg`, `faraz_container.JPG`, `logs_monitoring.JPG`) save kar lene ke baad terminal mein ye commands execute kar dein:
 
+```bash
+git add .
 
+git commit -m "docs: sync dynamic metrics logs and real container telemetry to readme"
+
+git push origin main
+```
+
+--- 
 
 ## 👥 Engineering & Identity Context
 
