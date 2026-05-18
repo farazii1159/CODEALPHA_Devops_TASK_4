@@ -103,19 +103,19 @@ CODEALPHA_Devops_TASK_4/
 ### 1. DevOps Control Center Local UI
 Validation confirming our engineered **DevOps Control Center & Metrics Dashboard** rendering natively on the host interface over port `8080`.
 
-![Local UI Verification](images/web_page.jpg)
+![Local UI Verification](images/web_page.JPG)
 
 
 ## 2. Docker Desktop Container Registry
 Telemetry status readout displaying the **faraz-web-container** environment running optimally with minimal resource footprint (**8.95MB**).
 
-![Docker Desktop Container](images/faraz_container.jpg)
+![Docker Desktop Container](images/faraz_container.JPG)
 
 
 ## 3. Nginx Worker Process Telemetry Logs
 Live application container logs streams verifying active worker routines and server responses.
 
-![Nginx Worker Process Telemetry Logs](images/logs_monitoring.jpg)
+![Nginx Worker Process Telemetry Logs](images/logs_monitoring.JPG)
 
 
 
