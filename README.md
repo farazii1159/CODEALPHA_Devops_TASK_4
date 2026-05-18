@@ -110,6 +110,30 @@ State Management & Lifecycle: Mastered low-level infrastructure operations inclu
 
 Environment Synchronization: Handled runtime operations and host system resource binding smoothly across the WSL 2 subsystem layer.
 
+
+---
+
+## 📸 Project Verification Screenshots
+*(All system validation assets are fully synchronized and documented below)*
+
+### 1. Local Environment Operational UI
+Validation confirming our engineered **DevOps Control Center & Metrics Dashboard** rendering natively on the host interface over port `8080`.
+![Local Metrics Dashboard](images/image_8b9734.png)
+
+### 2. Isolated Micro-Runtime Footprint
+Docker Desktop telemetry demonstrating a healthy container status layer spinning under low overhead metrics (8.08 MB runtime footprint).
+![Docker Container Registry](images/image_8b238f.png)
+
+### 3. Edge Routing Security Protocol
+The initialization gateway response produced by the Ngrok boundary system during initial tunneling creation.
+![Ngrok Security Handshake](images/image_8b23b1.jpg)
+
+### 4. Cross-Device Visibility & Global Access
+Active deployment check displaying the live cloud web engine rendering dynamically on secondary testing platforms.
+![Mobile Routing Verification](images/image_8b7589.jpg)
+
+
+
 ## 👥 Engineering & Identity Context
 
 DevOps Intern: Faraz Shabbir
