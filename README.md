@@ -107,7 +107,7 @@ Port Address Translation: Solidified core networking concepts regarding how inco
 
 State Management & Lifecycle: Handled core runtime parameters including container initialization, active state scanning, process tracking, and resource isolation layers.
 
-👥 Engineering & Identity Context
+## 👥 Engineering & Identity Context
 
 DevOps Intern: Faraz Shabbir
 
