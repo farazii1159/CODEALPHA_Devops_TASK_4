@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Control Center | Core Metrics</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Courier New', Courier, monospace; }
+        body { background-color: #0d1117; color: #c9d1d9; padding-top: 80px; }
+        
+        /* Navbar */
+        header { background: #161b22; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #238636; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        .logo { color: #238636; font-size: 20px; font-weight: bold; letter-spacing: 1px; }
+        .status-badge { background: #238636; color: white; padding: 4px 10px; font-size: 12px; border-radius: 12px; animation: blink 2s infinite; }
+        
+        /* Hero Section */
+        .hero { max-width: 1100px; margin: 40px auto; padding: 40px 20px; text-align: center; }
+        .hero h1 { font-size: 2.8rem; color: #f0f6fc; margin-bottom: 15px; }
+        .hero p { font-size: 1.1rem; color: #8b949e; max-width: 800px; margin: 0 auto 30px auto; line-height: 1.6; }
+        
+        /* Terminal Widget */
+        .terminal { background: #161b22; border: 1px solid #30363d; border-radius: 6px; max-width: 650px; margin: 0 auto 50px auto; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .terminal-header { background: #21262d; padding: 10px; display: flex; align-items: center; border-bottom: 1px solid #30363d; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+        .dot { height: 12px; width: 12px; border-radius: 50%; display: inline-block; margin-right: 8px; }
+        .dot.red { background: #ff5f56; } .dot.yellow { background: #ffbd2e; } .dot.green { background: #27c93f; }
+        .terminal-body { padding: 20px; color: #58a6ff; font-size: 14px; line-height: 1.5; }
+        .command { color: #f0f6fc; }
+        .output { color: #8b949e; }
+
+        /* Grid System */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1100px; margin: 0 auto; padding: 20px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 25px; transition: 0.3s; }
+        .card:hover { border-color: #238636; transform: translateY(-3px); }
+        .card h3 { color: #58a6ff; margin-bottom: 12px; font-size: 1.3rem; }
+        .card p { color: #8b949e; font-size: 0.95rem; line-height: 1.5; }
+
+        footer { text-align: center; padding: 40px 20px; color: #8b949e; font-size: 13px; margin-top: 60px; border-top: 1px solid #21262d; }
+        
+        @keyframes blink { 50% { opacity: 0.5; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">$ devops_control_center</div>
+        <div class="status-badge">CONTAINER: ACTIVE</div>
+    </header>
+
+    <section class="hero">
+        <h1>Nginx Automated Web Environment</h1>
+        <p>This localized dashboard confirms the successful orchestration and deployment of an isolated web node inside Docker. Powered by Alpine Linux and micro-routing.</p>
+        
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span style="color: #8b949e; font-size: 12px; margin-left: 10px;">bash - faraz@docker-node</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="command">$ curl -I localhost:8080</span></p>
+                <p class="output">HTTP/1.1 200 OK<br>Server: nginx/alpine<br>Content-Type: text/html<br>Connection: keep-alive</p>
+                <p style="margin-top: 10px;"><span class="command">$ docker ps --format "table {{.Names}}\t{{.Status}}"</span></p>
+                <p class="output">NAMES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br>faraz-web-container&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up 45 minutes</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="grid">
+        <div class="card">
+            <h3>01 / Isolation Layer</h3>
+            <p>The host system filesystem is fully isolated. This application serves traffic safely from inside an immutable Docker layer running Nginx.</p>
+        </div>
+        <div class="card">
+            <h3>02 / Networking & Ports</h3>
+            <p>Traffic coming into the host machine on port <b>8080</b> is successfully forwarded via Docker's bridge network into the container's internal port <b>80</b>.</p>
+        </div>
+        <div class="card">
+            <h3>03 / Live Verification</h3>
+            <p>Any updates pushed to the repository trigger a streamlined pipeline context, verifying local environments via reproducible build parameters.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Node Orchestrated by Faraz Shabbir | Virtual University of Pakistan
+    </footer>
+
+</body>
+</html>
