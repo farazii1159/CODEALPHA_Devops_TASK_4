@@ -101,11 +101,14 @@ CODEALPHA_Devops_TASK_4/
 ### Project documentation
 
 ### 🧠 Technical Competencies Gained
-Alpine Optimization: Applied industrial best practices by selecting `nginx:alpine` to significantly reduce attack surfaces, image vulnerabilities, and storage footprints.
+ 
+Alpine Optimization: Applied modern production architectures by using nginx:alpine to systematically minimize attack vectors, dependencies, and deployment file sizes.
 
-Port Address Translation: Solidified core networking concepts regarding how incoming host requests transit across Docker's bridge networks into internal container boundaries.
+Port Address Translation: Conceptualized routing flows showing how external boundary packets transit across Docker’s virtual bridge networks down to internal private application layers.
 
-State Management & Lifecycle: Handled core runtime parameters including container initialization, active state scanning, process tracking, and resource isolation layers.
+State Management & Lifecycle: Mastered low-level infrastructure operations including instance spawning, execution monitoring, pipeline logs tracking, and immutable environment setups.
+
+Environment Synchronization: Handled runtime operations and host system resource binding smoothly across the WSL 2 subsystem layer.
 
 ## 👥 Engineering & Identity Context
 
