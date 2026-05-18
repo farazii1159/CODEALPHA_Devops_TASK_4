@@ -103,7 +103,7 @@ CODEALPHA_Devops_TASK_4/
 ### 1. DevOps Control Center Local UI
 Validation confirming our engineered **DevOps Control Center & Metrics Dashboard** rendering natively on the host interface over port `8080`.
 
-![Local UI Verification](images/dashboard-ui.jpg)
+![Local UI Verification](images/web_page.jpg)
 
 
 ## 2. Docker Desktop Container Registry
