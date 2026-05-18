@@ -43,32 +43,36 @@ To initialize and deploy this infrastructure component on your local workstation
 git clone [https://github.com/farazii1159/CODEALPHA_Devops_TASK_4.git](https://github.com/farazii1159/CODEALPHA_Devops_TASK_4.git)
 
 cd CODEALPHA_Devops_TASK_4
-
+```
 ---
 
 ## 🏗️ Core Workflow Lifecycle: Build, Ship, & Run
 
 ### 1. Build the Isolated Docker Image
+
 To read the structural blueprints defined in the `Dockerfile` and compile the static assets into an immutable image layer, execute:
+
 ```bash
 docker build -t devops-metrics-dashboard .
 ```
 
-2. Inspect Local Images
+### 2. Inspect Local Images
+
 Verify that the image has been successfully created and registered with the local Docker daemon:
 
 ```bash
 docker images
 ```
 
-3. Initialize and Run the Container
+### 3. Initialize and Run the Container
+
 Spin up the container in detached mode (-d), assign a customized runtime name, and forward traffic from host port 8080 to container port 80:
 
 ```bash
 docker run -d -p 8080:80 --name faraz-web-container devops-metrics-dashboard
 ```
 
-4. Monitor Container Status & Logs
+### 4. Monitor Container Status & Logs
 Verify the health status and internal process telemetry of the active container:
 
 ```Bash
@@ -84,7 +88,7 @@ Local Ingress URL: Open your browser and access http://localhost:8080
 
 
 
-📂 Project Repository Structure Plaintext
+### 📂 Project Repository Structure Plaintext
 
 ```bash
 CODEALPHA_Devops_TASK_4/
@@ -94,15 +98,15 @@ CODEALPHA_Devops_TASK_4/
 └── images/             # Documentation screenshots folder 
 
 ```
-project documentation
+### Project documentation
 
-🧠 Technical Competencies Gained
+### 🧠 Technical Competencies Gained
 Alpine Optimization: Applied industrial best practices by selecting `nginx:alpine` to significantly reduce attack surfaces, image vulnerabilities, and storage footprints.
 
 Port Address Translation: Solidified core networking concepts regarding how incoming host requests transit across Docker's bridge networks into internal container boundaries.
 
 State Management & Lifecycle: Handled core runtime parameters including container initialization, active state scanning, process tracking, and resource isolation layers.
-
+```bash
 👥 Engineering & Identity Context
 
 DevOps Intern: Faraz Shabbir
@@ -112,3 +116,4 @@ Affiliation: Virtual University of Pakistan
 Organization: CodeAlpha DevOps Internship program
 
 Connect With Me: Faraz Shabbir on LinkedIn
+```
