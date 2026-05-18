@@ -106,7 +106,7 @@ Alpine Optimization: Applied industrial best practices by selecting `nginx:alpin
 Port Address Translation: Solidified core networking concepts regarding how incoming host requests transit across Docker's bridge networks into internal container boundaries.
 
 State Management & Lifecycle: Handled core runtime parameters including container initialization, active state scanning, process tracking, and resource isolation layers.
-```bash
+
 👥 Engineering & Identity Context
 
 DevOps Intern: Faraz Shabbir
@@ -115,5 +115,4 @@ Affiliation: Virtual University of Pakistan
 
 Organization: CodeAlpha DevOps Internship program
 
-Connect With Me: Faraz Shabbir on LinkedIn
-```
+Connect With Me: https://www.linkedin.com/in/faraz-shabbir-5a9227344 
