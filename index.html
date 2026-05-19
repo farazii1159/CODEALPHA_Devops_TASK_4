@@ -67,19 +67,23 @@
     </section>
 
     <main class="grid">
-        <div class="card">
-            <h3>01 / Isolation Layer</h3>
-            <p>The host system filesystem is fully isolated. This application serves traffic safely from inside an immutable Docker layer running Nginx.</p>
-        </div>
-        <div class="card">
-            <h3>02 / Networking & Ports</h3>
-            <p>Traffic coming into the host machine on port <b>8080</b> is successfully forwarded via Docker's bridge network into the container's internal port <b>80</b>.</p>
-        </div>
-        <div class="card">
-            <h3>03 / Live Verification</h3>
-            <p>Any updates pushed to the repository trigger a streamlined pipeline context, verifying local environments via reproducible build parameters.</p>
-        </div>
-    </main>
+
+    <div class="card" onclick="location.href='#isolation'">
+        <h3>01 / Isolation Layer</h3>
+        <p>The host system filesystem is fully isolated. This application serves traffic safely from inside an immutable Docker layer running Nginx.</p>
+    </div>
+
+    <div class="card" onclick="location.href='#networking'">
+        <h3>02 / Networking & Ports</h3>
+        <p>Traffic coming into the host machine on port 8080 is successfully forwarded via Docker's bridge network into the container's internal port 80.</p>
+    </div>
+
+    <div class="card" onclick="location.href='#verification'">
+        <h3>03 / Live Verification</h3>
+        <p>Any updates pushed to the repository trigger a streamlined pipeline context, verifying local environments via reproducible build parameters.</p>
+    </div>
+
+</main>
 
     <footer>
         &copy; 2026 Node Orchestrated by Faraz Shabbir | Virtual University of Pakistan
