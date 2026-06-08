@@ -147,12 +147,14 @@ git push origin main
 
 --- 
 
-## 👥 Engineering & Identity Context
+## 👨‍💻 Author
 
-Role: DevOps Intern
+**Faraz Shabbir**
 
-Organization / Affiliation: CodeAlpha
+- GitHub: [farazii1159](https://github.com/farazii1159)
+- LinkedIn: [Faraz Shabbir](https://linkedin.com/in/faraz-shabbir-5a9227344)
+- Organization / Affiliation: CodeAlpha
+- Company: [CodeAlpha](https://www.linkedin.com/company/codealpha/)
 
-Company: https://www.linkedin.com/company/codealpha/
-
-Connect With Me: https://www.linkedin.com/in/faraz-shabbir-5a9227344 
+---
+**Submitted by:** Faraz Shabbir (CodeAlpha DevOps Program Participant)
