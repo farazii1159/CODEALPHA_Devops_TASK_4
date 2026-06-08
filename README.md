@@ -40,7 +40,7 @@ To initialize and deploy this infrastructure component on your local workstation
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/farazii1159/CODEALPHA_Devops_TASK_4.git](https://github.com/farazii1159/CODEALPHA_Devops_TASK_4.git)
+git clone https://github.com/farazii1159/CODEALPHA_Devops_TASK_4.git
 
 cd CODEALPHA_Devops_TASK_4
 ```
