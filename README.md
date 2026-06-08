@@ -149,10 +149,8 @@ git push origin main
 
 ## 👥 Engineering & Identity Context
 
-DevOps Intern: Faraz Shabbir
+Role: DevOps Intern
 
-Affiliation: Virtual University of Pakistan
-
-Organization: CodeAlpha DevOps Internship program
+Organization / Affiliation: CodeAlpha
 
 Connect With Me: https://www.linkedin.com/in/faraz-shabbir-5a9227344 
