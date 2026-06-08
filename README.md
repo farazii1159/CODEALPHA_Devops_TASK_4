@@ -153,4 +153,6 @@ Role: DevOps Intern
 
 Organization / Affiliation: CodeAlpha
 
+Company: https://www.linkedin.com/company/codealpha/
+
 Connect With Me: https://www.linkedin.com/in/faraz-shabbir-5a9227344 
