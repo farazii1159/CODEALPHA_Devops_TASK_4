@@ -157,4 +157,4 @@ git push origin main
 - Company: [CodeAlpha](https://www.linkedin.com/company/codealpha/)
 
 ---
-**Submitted by:** Faraz Shabbir (CodeAlpha DevOps Program Participant)
+**Submitted as part of CodeAlpha DevOps Internship Program**
