@@ -1,7 +1,7 @@
 # 🐳 Task 4: Web Server Containerization using Docker
 
 ## 🚀 Project Overview
-This repository contains my official submission for **Task 4** of the **CodeAlpha DevOps Internship**. The core objective of this assignment is to master containerization fundamentals by deploying, configuring, and managing a high-performance web server environment inside an isolated Docker container.
+This repository contains my .official submission for **Task 4** of the **CodeAlpha DevOps Internship**. The core objective of this assignment is to master containerization fundamentals by deploying, configuring, and managing a high-performance web server environment inside an isolated Docker container.
 
 Instead of a generic template site, this deployment hosts a customized, production-ready **DevOps Control Center & Metrics Dashboard** that interfaces with internal web assets using an optimized Nginx distribution. To demonstrate real-world cloud deployment patterns, the local container infrastructure is securely exposed to the global internet via an active Ngrok tunnel.
 
